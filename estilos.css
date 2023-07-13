@@ -1,0 +1,56 @@
+.css-selector {
+    background: linear-gradient(276deg, #91abe1, #164098);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 23%}
+    50%{background-position:100% 78%}
+    100%{background-position:0% 23%}
+}
+
+.titulo{
+    width: 80%;
+    margin-left: 40%;
+    color: #18174D;
+}
+
+.formulario{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-image:url(/fondo.jpg);
+    opacity:0.6;
+}
+
+label{
+    color: aliceblue;
+    margin-left: 15px;
+}
+
+.casilleros{
+    display: flex;
+    gap: 20px;
+}
+
+.columnalabel{
+    width: 40%;
+}
+
+.botonregistrarse{
+    margin-left: 30%;
+}
